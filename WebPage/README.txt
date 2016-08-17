@@ -16,3 +16,7 @@ Password: super477
 6. Steampunked Single machine: http://webdev.cse.msu.edu/~tsaipoan/project3/
 
 7. Steampunked Onilne: http://webdev.cse.msu.edu/~tsaipoan/project2/login.php
+
+8. Stalking the Wumpus: http://webdev.cse.msu.edu/~tsaipoan/step4/welcome.php
+
+9. Guessing Game: http://webdev.cse.msu.edu/~tsaipoan/step5/guessing.php
