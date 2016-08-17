@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitch 2.0",
+  "description": "Adds a link to twitch.tv streams that redirect your to an improved Twitch stream.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons" : {
+      "64" : "images/icon.png"
+  },
+    "content_scripts": [
+      {
+        "matches": ["http://www.twitch.tv/*", "https://www.twitch.tv/*"],
+        "js": ["myscript.js"]
+      }
+    ]
+}

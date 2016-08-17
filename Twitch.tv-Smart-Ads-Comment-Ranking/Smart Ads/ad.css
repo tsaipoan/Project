@@ -1,0 +1,85 @@
+html, body, header, footer, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    overflow:hidden;
+}
+.popularity {
+    position: absolute;
+    width: 25px;
+    height: 136px;
+    /*border : 1px solid black;*/
+    float:left;
+    text-align:center;
+}
+
+.thumb{
+    margin-top: 4px;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+}
+
+.light{
+    width: 16px;
+    height: 5px;
+    display:inline-block;
+}
+body {
+    width: 375px;
+    text-align: center;
+}
+.ad {
+    width: 359px;
+    background: white;
+}
+
+.pic {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 1em;
+}
+
+.pic img {
+    height: 100%;
+}
+
+
+.text {
+    padding-right: 10px;
+    display: inline-block;
+    width: 170px;
+    height: 100px;
+    margin: 1em;
+    text-align: center;
+}
+
+.text p {
+    padding-top: 5px;
+    font-size: 1.2em;
+    font-family: "Arial";
+    height: 30%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.text img {
+    padding-top: 5px;
+    height: 60%;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
